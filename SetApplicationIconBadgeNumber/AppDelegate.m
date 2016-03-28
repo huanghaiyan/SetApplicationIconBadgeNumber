@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[UIApplication  sharedApplication] setApplicationIconBadgeNumber:0];
+    [[UIApplication  sharedApplication] setApplicationIconBadgeNumber:0];//点击完之后不显示icon角标
     return YES;
 }
 
